@@ -1,9 +1,0 @@
-[2023-05-24 16:21:53.452917] Learning merging operations from data/USPTO-479k/train.smiles.
-Number of workers: 8. Total number of CPUs: 96.
-
-[2023-05-24 16:21:53.452989] Loading molecules...
-slurmstepd: error: *** STEP 31878.0 ON node01 CANCELLED AT 2023-05-25T15:09:41 ***
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** JOB 31878 ON node01 CANCELLED AT 2023-05-25T15:09:41 ***
-slurmstepd: error: Detected 28 oom-kill event(s) in StepId=31878.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
-slurmstepd: error: Detected 28 oom-kill event(s) in StepId=31878.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

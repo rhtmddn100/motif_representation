@@ -1,0 +1,23 @@
+# Project exclude paths
+/MolR/venv/
+/MolR/.idea/
+/MolR/data/USPTO-479k/cache
+/MolR/data/USPTO-479k/*.csv
+/MolR/data/USPTO-50k/cache
+/MolR/data/USPTO-50k/*.csv
+/MolR/data/USPTO-MIT/
+/MolR/data/Similarity/
+/MolR/data/Negative-Samples/
+/MolR/data/HIV/HIV.bin
+/MolR/commands.txt
+/MolR/saved/
+/MolR/baseline
+/MolR/src/*.txt
+/MolR/src/*.sh
+/MolR/src/logs/
+/MBMR/MotifVocab/data/QM9
+/MBMR/MotifVocab/data/USPTO-479k
+/MBMR/MotifVocab/data/*.csv
+/MBMR/MotifVocab/preprocess/
+/MBMR/MotifVocab/*.txt
+/MBMR/MotifVocab/*.sh

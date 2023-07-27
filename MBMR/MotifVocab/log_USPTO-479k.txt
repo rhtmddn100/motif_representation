@@ -1,0 +1,1513 @@
+[2023-06-29 16:26:59.540268] Learning merging operations from data/USPTO-479k/train.smiles.
+Number of workers: 4. Total number of CPUs: 80.
+
+[2023-06-29 16:26:59.540391] Loading molecules...
+[2023-06-29 16:35:53.923880] Loading molecules finished. Total: 559390 molecules.
+
+5034624
+[2023-06-29 16:35:54.128461] Begin getting statistics.
+[2023-06-29 16:40:52.537330] Iteration 0.
+[Iteration 0] Most frequent motif: cc, frequency: 5260154.
+
+[2023-06-29 16:52:01.496676] Iteration 1.
+[Iteration 1] Most frequent motif: CC, frequency: 2384829.
+
+[2023-06-29 17:01:15.948137] Iteration 2.
+[Iteration 2] Most frequent motif: cccc, frequency: 2313622.
+
+[2023-06-29 17:10:07.590267] Iteration 3.
+[Iteration 3] Most frequent motif: c1ccccc1, frequency: 647620.
+
+[2023-06-29 17:17:18.429982] Iteration 4.
+[Iteration 4] Most frequent motif: CCN, frequency: 594496.
+
+[2023-06-29 17:22:39.230482] Iteration 5.
+[Iteration 5] Most frequent motif: CCC, frequency: 464128.
+
+[2023-06-29 17:27:41.397182] Iteration 6.
+[Iteration 6] Most frequent motif: cn, frequency: 452236.
+
+[2023-06-29 17:32:34.656880] Iteration 7.
+[Iteration 7] Most frequent motif: CO, frequency: 390407.
+
+[2023-06-29 17:37:21.585878] Iteration 8.
+[Iteration 8] Most frequent motif: Cc1ccccc1, frequency: 321940.
+
+[2023-06-29 17:41:57.289286] Iteration 9.
+[Iteration 9] Most frequent motif: CCO, frequency: 213394.
+
+[2023-06-29 17:45:35.613769] Iteration 10.
+[Iteration 10] Most frequent motif: ccn, frequency: 148019.
+
+[2023-06-29 17:48:56.266264] Iteration 11.
+[Iteration 11] Most frequent motif: CCCC, frequency: 144702.
+
+[2023-06-29 17:51:52.893980] Iteration 12.
+[Iteration 12] Most frequent motif: O=S, frequency: 120251.
+
+[2023-06-29 17:54:43.117089] Iteration 13.
+[Iteration 13] Most frequent motif: CN, frequency: 119620.
+
+[2023-06-29 17:57:42.756416] Iteration 14.
+[Iteration 14] Most frequent motif: O=CO, frequency: 112420.
+
+[2023-06-29 18:00:55.024136] Iteration 15.
+[Iteration 15] Most frequent motif: CCNC, frequency: 106266.
+
+[2023-06-29 18:04:02.361763] Iteration 16.
+[Iteration 16] Most frequent motif: cccn, frequency: 89951.
+
+[2023-06-29 18:06:32.566571] Iteration 17.
+[Iteration 17] Most frequent motif: c1ccncc1, frequency: 92479.
+
+[2023-06-29 18:08:40.373900] Iteration 18.
+[Iteration 18] Most frequent motif: CC(C)C, frequency: 87672.
+
+[2023-06-29 18:10:27.216863] Iteration 19.
+[Iteration 19] Most frequent motif: CF, frequency: 73887.
+
+[2023-06-29 18:11:07.995498] Iteration 20.
+[Iteration 20] Most frequent motif: COc1ccccc1, frequency: 66173.
+
+[2023-06-29 18:12:24.695349] Iteration 21.
+[Iteration 21] Most frequent motif: O=Cc1ccccc1, frequency: 63869.
+
+[2023-06-29 18:14:06.788328] Iteration 22.
+[Iteration 22] Most frequent motif: Fc1ccccc1, frequency: 60472.
+
+[2023-06-29 18:15:15.005114] Iteration 23.
+[Iteration 23] Most frequent motif: O=S=O, frequency: 58316.
+
+[2023-06-29 18:16:37.724722] Iteration 24.
+[Iteration 24] Most frequent motif: FCc1ccccc1, frequency: 54914.
+
+[2023-06-29 18:17:15.608731] Iteration 25.
+[Iteration 25] Most frequent motif: CCNCC, frequency: 54449.
+
+[2023-06-29 18:18:27.012398] Iteration 26.
+[Iteration 26] Most frequent motif: Clc1ccccc1, frequency: 53988.
+
+[2023-06-29 18:19:24.641070] Iteration 27.
+[Iteration 27] Most frequent motif: CCC=O, frequency: 49600.
+
+[2023-06-29 18:20:30.469989] Iteration 28.
+[Iteration 28] Most frequent motif: ccccn, frequency: 49119.
+
+[2023-06-29 18:21:21.671526] Iteration 29.
+[Iteration 29] Most frequent motif: FCF, frequency: 48477.
+
+[2023-06-29 18:21:56.684022] Iteration 30.
+[Iteration 30] Most frequent motif: CC(N)=O, frequency: 44886.
+
+[2023-06-29 18:23:01.866618] Iteration 31.
+[Iteration 31] Most frequent motif: Oc1ccccc1, frequency: 43486.
+
+[2023-06-29 18:23:54.666829] Iteration 32.
+[Iteration 32] Most frequent motif: NC=O, frequency: 42890.
+
+[2023-06-29 18:25:00.107145] Iteration 33.
+[Iteration 33] Most frequent motif: CC(C)(C)OC=O, frequency: 37863.
+
+[2023-06-29 18:25:45.665953] Iteration 34.
+[Iteration 34] Most frequent motif: CC=O, frequency: 37772.
+
+[2023-06-29 18:26:32.825910] Iteration 35.
+[Iteration 35] Most frequent motif: FC(F)c1ccccc1, frequency: 36481.
+
+[2023-06-29 18:27:05.579442] Iteration 36.
+[Iteration 36] Most frequent motif: [N+][O-], frequency: 34378.
+
+[2023-06-29 18:27:49.356857] Iteration 37.
+[Iteration 37] Most frequent motif: O=[N+][O-], frequency: 34107.
+
+[2023-06-29 18:28:24.608810] Iteration 38.
+[Iteration 38] Most frequent motif: c1cncnc1, frequency: 32504.
+
+[2023-06-29 18:29:18.794220] Iteration 39.
+[Iteration 39] Most frequent motif: CCCO, frequency: 30536.
+
+[2023-06-29 18:30:01.444429] Iteration 40.
+[Iteration 40] Most frequent motif: ccnc, frequency: 30016.
+
+[2023-06-29 18:30:51.577430] Iteration 41.
+[Iteration 41] Most frequent motif: CCNC=O, frequency: 28956.
+
+[2023-06-29 18:31:42.216487] Iteration 42.
+[Iteration 42] Most frequent motif: ncn, frequency: 27519.
+
+[2023-06-29 18:32:26.532624] Iteration 43.
+[Iteration 43] Most frequent motif: CC(=O)O, frequency: 26385.
+
+[2023-06-29 18:32:57.455773] Iteration 44.
+[Iteration 44] Most frequent motif: C[Si], frequency: 25679.
+
+[2023-06-29 18:33:12.941380] Iteration 45.
+[Iteration 45] Most frequent motif: ccc1ccccc1, frequency: 24951.
+
+[2023-06-29 18:33:53.862911] Iteration 46.
+[Iteration 46] Most frequent motif: Nc1ccccc1, frequency: 24467.
+
+[2023-06-29 18:34:24.674878] Iteration 47.
+[Iteration 47] Most frequent motif: FC(F)F, frequency: 23564.
+
+[2023-06-29 18:34:54.202669] Iteration 48.
+[Iteration 48] Most frequent motif: cncn, frequency: 23377.
+
+[2023-06-29 18:35:25.571868] Iteration 49.
+[Iteration 49] Most frequent motif: ccc, frequency: 22061.
+
+[2023-06-29 18:35:51.082399] Iteration 50.
+[Iteration 50] Most frequent motif: C=O, frequency: 21923.
+
+[2023-06-29 18:36:17.674271] Iteration 51.
+[Iteration 51] Most frequent motif: OCc1ccccc1, frequency: 20352.
+
+[2023-06-29 18:36:44.082647] Iteration 52.
+[Iteration 52] Most frequent motif: CCNC(=O)OC(C)(C)C, frequency: 20117.
+
+[2023-06-29 18:37:09.504820] Iteration 53.
+[Iteration 53] Most frequent motif: CCOC=O, frequency: 19933.
+
+[2023-06-29 18:37:33.685401] Iteration 54.
+[Iteration 54] Most frequent motif: CC(C)O, frequency: 19719.
+
+[2023-06-29 18:38:02.824190] Iteration 55.
+[Iteration 55] Most frequent motif: FC(F)(F)c1ccccc1, frequency: 18153.
+
+[2023-06-29 18:38:31.446520] Iteration 56.
+[Iteration 56] Most frequent motif: c1cnnc1, frequency: 17549.
+
+[2023-06-29 18:39:00.710514] Iteration 57.
+[Iteration 57] Most frequent motif: NCC=O, frequency: 16521.
+
+[2023-06-29 18:39:28.596807] Iteration 58.
+[Iteration 58] Most frequent motif: C[SH](=O)=O, frequency: 16161.
+
+[2023-06-29 18:39:47.994684] Iteration 59.
+[Iteration 59] Most frequent motif: c1cscn1, frequency: 16089.
+
+[2023-06-29 18:40:11.441436] Iteration 60.
+[Iteration 60] Most frequent motif: C[Si]C, frequency: 15597.
+
+[2023-06-29 18:40:25.014191] Iteration 61.
+[Iteration 61] Most frequent motif: c1ccsc1, frequency: 15440.
+
+[2023-06-29 18:40:47.314689] Iteration 62.
+[Iteration 62] Most frequent motif: CCCCC, frequency: 14900.
+
+[2023-06-29 18:41:07.111616] Iteration 63.
+[Iteration 63] Most frequent motif: c1cncn1, frequency: 14241.
+
+[2023-06-29 18:41:28.149047] Iteration 64.
+[Iteration 64] Most frequent motif: C#N, frequency: 13594.
+
+[2023-06-29 18:41:43.504368] Iteration 65.
+[Iteration 65] Most frequent motif: CCCC=O, frequency: 13582.
+
+[2023-06-29 18:42:00.938812] Iteration 66.
+[Iteration 66] Most frequent motif: NC(=O)c1ccccc1, frequency: 12987.
+
+[2023-06-29 18:42:22.269876] Iteration 67.
+[Iteration 67] Most frequent motif: CCNC(C)=O, frequency: 12922.
+
+[2023-06-29 18:42:44.253269] Iteration 68.
+[Iteration 68] Most frequent motif: CNC, frequency: 12841.
+
+[2023-06-29 18:42:59.589275] Iteration 69.
+[Iteration 69] Most frequent motif: CCNCc1ccccc1, frequency: 12713.
+
+[2023-06-29 18:43:24.837292] Iteration 70.
+[Iteration 70] Most frequent motif: CS, frequency: 12604.
+
+[2023-06-29 18:43:40.085422] Iteration 71.
+[Iteration 71] Most frequent motif: N#Cc1ccccc1, frequency: 12377.
+
+[2023-06-29 18:43:57.616990] Iteration 72.
+[Iteration 72] Most frequent motif: NCc1ccccc1, frequency: 12232.
+
+[2023-06-29 18:44:16.978642] Iteration 73.
+[Iteration 73] Most frequent motif: COC=O, frequency: 11919.
+
+[2023-06-29 18:44:30.790431] Iteration 74.
+[Iteration 74] Most frequent motif: CCNC(=O)c1ccccc1, frequency: 11394.
+
+[2023-06-29 18:44:52.860692] Iteration 75.
+[Iteration 75] Most frequent motif: CCCCCCCC, frequency: 11129.
+
+[2023-06-29 18:45:07.511819] Iteration 76.
+[Iteration 76] Most frequent motif: CCOC(C)=O, frequency: 10746.
+
+[2023-06-29 18:45:20.061188] Iteration 77.
+[Iteration 77] Most frequent motif: COC(=O)c1ccccc1, frequency: 10725.
+
+[2023-06-29 18:45:33.073318] Iteration 78.
+[Iteration 78] Most frequent motif: O=[SH](=O)c1ccccc1, frequency: 10634.
+
+[2023-06-29 18:45:49.899233] Iteration 79.
+[Iteration 79] Most frequent motif: c1ccc2nccc2c1, frequency: 10136.
+
+[2023-06-29 18:46:08.910767] Iteration 80.
+[Iteration 80] Most frequent motif: CCc1ccccc1, frequency: 10099.
+
+[2023-06-29 18:46:23.795169] Iteration 81.
+[Iteration 81] Most frequent motif: CCCN, frequency: 9840.
+
+[2023-06-29 18:46:38.201019] Iteration 82.
+[Iteration 82] Most frequent motif: ccccc, frequency: 9753.
+
+[2023-06-29 18:46:54.787502] Iteration 83.
+[Iteration 83] Most frequent motif: c1ccc2ncccc2c1, frequency: 11248.
+
+[2023-06-29 18:47:14.829103] Iteration 84.
+[Iteration 84] Most frequent motif: CC(C)N, frequency: 9671.
+
+[2023-06-29 18:47:26.823943] Iteration 85.
+[Iteration 85] Most frequent motif: CCC(=O)O, frequency: 9312.
+
+[2023-06-29 18:47:39.612893] Iteration 86.
+[Iteration 86] Most frequent motif: nc[nH], frequency: 9274.
+
+[2023-06-29 18:47:55.951034] Iteration 87.
+[Iteration 87] Most frequent motif: CNC(C)=O, frequency: 9141.
+
+[2023-06-29 18:48:12.402938] Iteration 88.
+[Iteration 88] Most frequent motif: c1ccc2[nH]ccc2c1, frequency: 9116.
+
+[2023-06-29 18:48:27.252733] Iteration 89.
+[Iteration 89] Most frequent motif: CCOc1ccccc1, frequency: 9013.
+
+[2023-06-29 18:48:42.474236] Iteration 90.
+[Iteration 90] Most frequent motif: O=COCc1ccccc1, frequency: 8630.
+
+[2023-06-29 18:48:55.503053] Iteration 91.
+[Iteration 91] Most frequent motif: FCOc1ccccc1, frequency: 8459.
+
+[2023-06-29 18:49:02.397072] Iteration 92.
+[Iteration 92] Most frequent motif: Cc1cccc(C)c1, frequency: 8428.
+
+[2023-06-29 18:49:16.217339] Iteration 93.
+[Iteration 93] Most frequent motif: Cc1ccccn1, frequency: 8339.
+
+[2023-06-29 18:49:27.351333] Iteration 94.
+[Iteration 94] Most frequent motif: CCCCO, frequency: 8138.
+
+[2023-06-29 18:49:39.480298] Iteration 95.
+[Iteration 95] Most frequent motif: CCOC(=O)CC, frequency: 7848.
+
+[2023-06-29 18:49:49.691496] Iteration 96.
+[Iteration 96] Most frequent motif: C1CCNCC1, frequency: 7764.
+
+[2023-06-29 18:50:01.902382] Iteration 97.
+[Iteration 97] Most frequent motif: ncs, frequency: 7745.
+
+[2023-06-29 18:50:13.288224] Iteration 98.
+[Iteration 98] Most frequent motif: N[SH](=O)=O, frequency: 7671.
+
+[2023-06-29 18:50:24.883502] Iteration 99.
+[Iteration 99] Most frequent motif: OCCF, frequency: 7630.
+
+[2023-06-29 18:50:31.138976] Iteration 100.
+[Iteration 100] Most frequent motif: CCOC, frequency: 7514.
+
+[2023-06-29 18:50:42.107894] Iteration 101.
+[Iteration 101] Most frequent motif: C1COCCN1, frequency: 7434.
+
+[2023-06-29 18:50:53.635386] Iteration 102.
+[Iteration 102] Most frequent motif: Fc1cccc(F)c1, frequency: 7426.
+
+[2023-06-29 18:51:05.315909] Iteration 103.
+[Iteration 103] Most frequent motif: COC(C)=O, frequency: 7395.
+
+[2023-06-29 18:51:14.421055] Iteration 104.
+[Iteration 104] Most frequent motif: OCCO, frequency: 7198.
+
+[2023-06-29 18:51:26.687018] Iteration 105.
+[Iteration 105] Most frequent motif: CCC(C)C, frequency: 7082.
+
+[2023-06-29 18:51:37.150502] Iteration 106.
+[Iteration 106] Most frequent motif: nn, frequency: 7028.
+
+[2023-06-29 18:51:48.476748] Iteration 107.
+[Iteration 107] Most frequent motif: NCCO, frequency: 6724.
+
+[2023-06-29 18:51:58.525894] Iteration 108.
+[Iteration 108] Most frequent motif: CCF, frequency: 6657.
+
+[2023-06-29 18:52:03.093006] Iteration 109.
+[Iteration 109] Most frequent motif: Clc1cccc(Cl)c1, frequency: 6555.
+
+[2023-06-29 18:52:12.856375] Iteration 110.
+[Iteration 110] Most frequent motif: COc1ccc(C)cc1, frequency: 6542.
+
+[2023-06-29 18:52:24.438750] Iteration 111.
+[Iteration 111] Most frequent motif: Cc1cccnc1, frequency: 6403.
+
+[2023-06-29 18:52:33.500409] Iteration 112.
+[Iteration 112] Most frequent motif: c1ccnc1, frequency: 6308.
+
+[2023-06-29 18:52:44.815521] Iteration 113.
+[Iteration 113] Most frequent motif: CCC(N)=O, frequency: 6245.
+
+[2023-06-29 18:52:53.267641] Iteration 114.
+[Iteration 114] Most frequent motif: CCN(C)C, frequency: 6179.
+
+[2023-06-29 18:53:03.013601] Iteration 115.
+[Iteration 115] Most frequent motif: c1ccc(Cc2ccccc2)cc1, frequency: 6145.
+
+[2023-06-29 18:53:12.747507] Iteration 116.
+[Iteration 116] Most frequent motif: CNC=O, frequency: 6045.
+
+[2023-06-29 18:53:21.971173] Iteration 117.
+[Iteration 117] Most frequent motif: COc1ccccc1OC, frequency: 6027.
+
+[2023-06-29 18:53:31.399160] Iteration 118.
+[Iteration 118] Most frequent motif: cccc, frequency: 6015.
+
+[2023-06-29 18:53:41.598431] Iteration 119.
+[Iteration 119] Most frequent motif: c1ccoc1, frequency: 6819.
+
+[2023-06-29 18:53:51.297132] Iteration 120.
+[Iteration 120] Most frequent motif: nco, frequency: 5981.
+
+[2023-06-29 18:53:59.180882] Iteration 121.
+[Iteration 121] Most frequent motif: CCC(=O)OC, frequency: 5890.
+
+[2023-06-29 18:54:06.369418] Iteration 122.
+[Iteration 122] Most frequent motif: CCCNCC, frequency: 5811.
+
+[2023-06-29 18:54:15.675335] Iteration 123.
+[Iteration 123] Most frequent motif: O=[N+]([O-])c1ccccc1, frequency: 5805.
+
+[2023-06-29 18:54:22.841654] Iteration 124.
+[Iteration 124] Most frequent motif: Nc1ccccn1, frequency: 5787.
+
+[2023-06-29 18:54:31.836866] Iteration 125.
+[Iteration 125] Most frequent motif: C[Si](C)C, frequency: 5707.
+
+[2023-06-29 18:54:38.022630] Iteration 126.
+[Iteration 126] Most frequent motif: c1ccc2ccccc2c1, frequency: 5691.
+
+[2023-06-29 18:54:47.984077] Iteration 127.
+[Iteration 127] Most frequent motif: CCCF, frequency: 5670.
+
+[2023-06-29 18:54:51.989497] Iteration 128.
+[Iteration 128] Most frequent motif: c1cnccn1, frequency: 5648.
+
+[2023-06-29 18:55:00.974289] Iteration 129.
+[Iteration 129] Most frequent motif: c1cnoc1, frequency: 5421.
+
+[2023-06-29 18:55:09.712659] Iteration 130.
+[Iteration 130] Most frequent motif: FC(F)Oc1ccccc1, frequency: 5393.
+
+[2023-06-29 18:55:15.462922] Iteration 131.
+[Iteration 131] Most frequent motif: c1ccnnc1, frequency: 5317.
+
+[2023-06-29 18:55:24.890555] Iteration 132.
+[Iteration 132] Most frequent motif: CCCCN, frequency: 5309.
+
+[2023-06-29 18:55:32.777889] Iteration 133.
+[Iteration 133] Most frequent motif: Brc1ccccc1, frequency: 5305.
+
+[2023-06-29 18:55:39.615317] Iteration 134.
+[Iteration 134] Most frequent motif: c1cc[nH]c1, frequency: 5283.
+
+[2023-06-29 18:55:48.154139] Iteration 135.
+[Iteration 135] Most frequent motif: c1cocn1, frequency: 5057.
+
+[2023-06-29 18:55:57.339078] Iteration 136.
+[Iteration 136] Most frequent motif: C1CNCCN1, frequency: 5038.
+
+[2023-06-29 18:56:05.269717] Iteration 137.
+[Iteration 137] Most frequent motif: CC(C)(C)O, frequency: 5014.
+
+[2023-06-29 18:56:13.408329] Iteration 138.
+[Iteration 138] Most frequent motif: c1ncnn1, frequency: 5005.
+
+[2023-06-29 18:56:21.551978] Iteration 139.
+[Iteration 139] Most frequent motif: Nc1ncccn1, frequency: 4994.
+
+[2023-06-29 18:56:30.421168] Iteration 140.
+[Iteration 140] Most frequent motif: Cn1cccn1, frequency: 4985.
+
+[2023-06-29 18:56:38.257697] Iteration 141.
+[Iteration 141] Most frequent motif: O=CCO, frequency: 4903.
+
+[2023-06-29 18:56:46.475880] Iteration 142.
+[Iteration 142] Most frequent motif: c1ccc(COc2ccccc2)cc1, frequency: 4874.
+
+[2023-06-29 18:56:55.383309] Iteration 143.
+[Iteration 143] Most frequent motif: C1CC1, frequency: 4828.
+
+[2023-06-29 18:57:03.095247] Iteration 144.
+[Iteration 144] Most frequent motif: C[Si](C)C(C)(C)C, frequency: 4780.
+
+[2023-06-29 18:57:09.454569] Iteration 145.
+[Iteration 145] Most frequent motif: ncc1ccccc1, frequency: 4773.
+
+[2023-06-29 18:57:18.664268] Iteration 146.
+[Iteration 146] Most frequent motif: Cc1cccc(F)c1, frequency: 4746.
+
+[2023-06-29 18:57:26.829906] Iteration 147.
+[Iteration 147] Most frequent motif: CCCCCC, frequency: 4670.
+
+[2023-06-29 18:57:33.462814] Iteration 148.
+[Iteration 148] Most frequent motif: OCC(F)F, frequency: 4603.
+
+[2023-06-29 18:57:37.948754] Iteration 149.
+[Iteration 149] Most frequent motif: c=O, frequency: 4533.
+
+[2023-06-29 18:57:45.534489] Iteration 150.
+[Iteration 150] Most frequent motif: O=CNc1ccccc1, frequency: 4512.
+
+[2023-06-29 18:57:53.624865] Iteration 151.
+[Iteration 151] Most frequent motif: Clc1ccccn1, frequency: 4498.
+
+[2023-06-29 18:57:59.418430] Iteration 152.
+[Iteration 152] Most frequent motif: C1CCCCC1, frequency: 4425.
+
+[2023-06-29 18:58:06.206934] Iteration 153.
+[Iteration 153] Most frequent motif: c1ccc2occc2c1, frequency: 4393.
+
+[2023-06-29 18:58:14.450381] Iteration 154.
+[Iteration 154] Most frequent motif: CC(O)CF, frequency: 4361.
+
+[2023-06-29 18:58:17.021302] Iteration 155.
+[Iteration 155] Most frequent motif: O=C(O)c1ccccc1, frequency: 4312.
+
+[2023-06-29 18:58:23.293274] Iteration 156.
+[Iteration 156] Most frequent motif: CCC(C)O, frequency: 4277.
+
+[2023-06-29 18:58:30.064467] Iteration 157.
+[Iteration 157] Most frequent motif: COc1cccc(C)c1, frequency: 4273.
+
+[2023-06-29 18:58:37.269221] Iteration 158.
+[Iteration 158] Most frequent motif: Cc1ccc(Cl)cc1, frequency: 4164.
+
+[2023-06-29 18:58:44.683343] Iteration 159.
+[Iteration 159] Most frequent motif: c1c[nH]cn1, frequency: 4161.
+
+[2023-06-29 18:58:51.285078] Iteration 160.
+[Iteration 160] Most frequent motif: Clc1cccnc1, frequency: 4152.
+
+[2023-06-29 18:58:57.226067] Iteration 161.
+[Iteration 161] Most frequent motif: CC(C)C=O, frequency: 4129.
+
+[2023-06-29 18:59:03.753612] Iteration 162.
+[Iteration 162] Most frequent motif: cc1ccccc1, frequency: 4008.
+
+[2023-06-29 18:59:11.597379] Iteration 163.
+[Iteration 163] Most frequent motif: Nc1ccncn1, frequency: 3918.
+
+[2023-06-29 18:59:18.593284] Iteration 164.
+[Iteration 164] Most frequent motif: Clc1ccccc1Cl, frequency: 3918.
+
+[2023-06-29 18:59:24.521290] Iteration 165.
+[Iteration 165] Most frequent motif: CC(C)(C)OC(N)=O, frequency: 3864.
+
+[2023-06-29 18:59:30.032345] Iteration 166.
+[Iteration 166] Most frequent motif: CCCc1ccccc1, frequency: 3855.
+
+[2023-06-29 18:59:36.484725] Iteration 167.
+[Iteration 167] Most frequent motif: Cc1ccc(F)cc1, frequency: 3747.
+
+[2023-06-29 18:59:43.297855] Iteration 168.
+[Iteration 168] Most frequent motif: CCN1CCNCC1, frequency: 3693.
+
+[2023-06-29 18:59:49.916013] Iteration 169.
+[Iteration 169] Most frequent motif: OCF, frequency: 3678.
+
+[2023-06-29 18:59:52.971784] Iteration 170.
+[Iteration 170] Most frequent motif: O=P, frequency: 3671.
+
+[2023-06-29 18:59:59.644975] Iteration 171.
+[Iteration 171] Most frequent motif: Cc1ccc([SH](=O)=O)cc1, frequency: 3610.
+
+[2023-06-29 19:00:05.271461] Iteration 172.
+[Iteration 172] Most frequent motif: c1cn[nH]c1, frequency: 3576.
+
+[2023-06-29 19:00:11.101693] Iteration 173.
+[Iteration 173] Most frequent motif: c1ccc2nncc2c1, frequency: 3526.
+
+[2023-06-29 19:00:18.267280] Iteration 174.
+[Iteration 174] Most frequent motif: CCCC(C)C, frequency: 3497.
+
+[2023-06-29 19:00:23.935192] Iteration 175.
+[Iteration 175] Most frequent motif: CCN(C)C(=O)OC(C)(C)C, frequency: 3483.
+
+[2023-06-29 19:00:29.438888] Iteration 176.
+[Iteration 176] Most frequent motif: [nH]c=O, frequency: 3457.
+
+[2023-06-29 19:00:34.914732] Iteration 177.
+[Iteration 177] Most frequent motif: Cc1cccc(Cl)c1, frequency: 3407.
+
+[2023-06-29 19:00:40.801188] Iteration 178.
+[Iteration 178] Most frequent motif: BOC(C)C, frequency: 3383.
+
+[2023-06-29 19:00:43.816140] Iteration 179.
+[Iteration 179] Most frequent motif: c1ccsc1, frequency: 3362.
+
+[2023-06-29 19:00:48.916812] Iteration 180.
+[Iteration 180] Most frequent motif: CCNC(=O)CC, frequency: 3310.
+
+[2023-06-29 19:00:55.383891] Iteration 181.
+[Iteration 181] Most frequent motif: nc=O, frequency: 3299.
+
+[2023-06-29 19:01:02.191782] Iteration 182.
+[Iteration 182] Most frequent motif: CCCOc1ccccc1, frequency: 3284.
+
+[2023-06-29 19:01:08.283098] Iteration 183.
+[Iteration 183] Most frequent motif: CCl, frequency: 3268.
+
+[2023-06-29 19:01:11.409190] Iteration 184.
+[Iteration 184] Most frequent motif: CC(=O)Nc1ccccc1, frequency: 3262.
+
+[2023-06-29 19:01:17.633616] Iteration 185.
+[Iteration 185] Most frequent motif: BO, frequency: 3235.
+
+[2023-06-29 19:01:19.991133] Iteration 186.
+[Iteration 186] Most frequent motif: c1ccc2sccc2c1, frequency: 3194.
+
+[2023-06-29 19:01:25.863985] Iteration 187.
+[Iteration 187] Most frequent motif: nccn, frequency: 3144.
+
+[2023-06-29 19:01:32.024186] Iteration 188.
+[Iteration 188] Most frequent motif: CCOP=O, frequency: 3130.
+
+[2023-06-29 19:01:35.050269] Iteration 189.
+[Iteration 189] Most frequent motif: CCN[SH](=O)=O, frequency: 3077.
+
+[2023-06-29 19:01:40.599827] Iteration 190.
+[Iteration 190] Most frequent motif: CCC(C)=O, frequency: 3065.
+
+[2023-06-29 19:01:45.163268] Iteration 191.
+[Iteration 191] Most frequent motif: O=c1ccccn1, frequency: 3063.
+
+[2023-06-29 19:01:51.491038] Iteration 192.
+[Iteration 192] Most frequent motif: CC(O)CO, frequency: 3056.
+
+[2023-06-29 19:01:56.962891] Iteration 193.
+[Iteration 193] Most frequent motif: C=CC, frequency: 3035.
+
+[2023-06-29 19:02:00.830722] Iteration 194.
+[Iteration 194] Most frequent motif: CCNC(N)=O, frequency: 3031.
+
+[2023-06-29 19:02:06.259090] Iteration 195.
+[Iteration 195] Most frequent motif: c1ccc2ncnc2c1, frequency: 3029.
+
+[2023-06-29 19:02:12.608564] Iteration 196.
+[Iteration 196] Most frequent motif: O=CCNC=O, frequency: 3029.
+
+[2023-06-29 19:02:19.117507] Iteration 197.
+[Iteration 197] Most frequent motif: CNC(=O)c1ccccc1, frequency: 3026.
+
+[2023-06-29 19:02:25.324881] Iteration 198.
+[Iteration 198] Most frequent motif: CCN(C)CC, frequency: 3008.
+
+[2023-06-29 19:02:31.568660] Iteration 199.
+[Iteration 199] Most frequent motif: CC(F)F, frequency: 3005.
+
+[2023-06-29 19:02:35.283317] Iteration 200.
+[Iteration 200] Most frequent motif: c1ncon1, frequency: 3001.
+
+[2023-06-29 19:02:40.857581] Iteration 201.
+[Iteration 201] Most frequent motif: O=c1ccncn1, frequency: 2993.
+
+[2023-06-29 19:02:48.396568] Iteration 202.
+[Iteration 202] Most frequent motif: COC(=O)CN, frequency: 2978.
+
+[2023-06-29 19:02:52.804809] Iteration 203.
+[Iteration 203] Most frequent motif: Cc1ccccc1Cl, frequency: 2930.
+
+[2023-06-29 19:02:57.563915] Iteration 204.
+[Iteration 204] Most frequent motif: NO, frequency: 2923.
+
+[2023-06-29 19:03:01.095099] Iteration 205.
+[Iteration 205] Most frequent motif: CCS, frequency: 2889.
+
+[2023-06-29 19:03:04.960576] Iteration 206.
+[Iteration 206] Most frequent motif: [N+]=[N-], frequency: 2884.
+
+[2023-06-29 19:03:08.537658] Iteration 207.
+[Iteration 207] Most frequent motif: CN1CCNCC1, frequency: 2871.
+
+[2023-06-29 19:03:13.189523] Iteration 208.
+[Iteration 208] Most frequent motif: CCN1CCCCC1, frequency: 2834.
+
+[2023-06-29 19:03:18.280306] Iteration 209.
+[Iteration 209] Most frequent motif: C1CCCC1, frequency: 2809.
+
+[2023-06-29 19:03:22.616950] Iteration 210.
+[Iteration 210] Most frequent motif: NC(N)=O, frequency: 2734.
+
+[2023-06-29 19:03:27.537949] Iteration 211.
+[Iteration 211] Most frequent motif: Cc1cscn1, frequency: 2711.
+
+[2023-06-29 19:03:31.719506] Iteration 212.
+[Iteration 212] Most frequent motif: CCC(F)F, frequency: 2699.
+
+[2023-06-29 19:03:35.400472] Iteration 213.
+[Iteration 213] Most frequent motif: C1CCNC1, frequency: 2699.
+
+[2023-06-29 19:03:39.840688] Iteration 214.
+[Iteration 214] Most frequent motif: Fc1ccccc1F, frequency: 2696.
+
+[2023-06-29 19:03:44.423584] Iteration 215.
+[Iteration 215] Most frequent motif: COc1ccccn1, frequency: 2691.
+
+[2023-06-29 19:03:48.502155] Iteration 216.
+[Iteration 216] Most frequent motif: nccc=O, frequency: 2637.
+
+[2023-06-29 19:03:53.924557] Iteration 217.
+[Iteration 217] Most frequent motif: Cc1ccccc1C, frequency: 2613.
+
+[2023-06-29 19:03:58.726959] Iteration 218.
+[Iteration 218] Most frequent motif: CCCC(=O)OCC, frequency: 2611.
+
+[2023-06-29 19:04:02.358253] Iteration 219.
+[Iteration 219] Most frequent motif: CCCC(=O)OC, frequency: 2567.
+
+[2023-06-29 19:04:05.779881] Iteration 220.
+[Iteration 220] Most frequent motif: Cc1ccccc1F, frequency: 2557.
+
+[2023-06-29 19:04:10.232550] Iteration 221.
+[Iteration 221] Most frequent motif: CC(C)CO, frequency: 2553.
+
+[2023-06-29 19:04:14.266003] Iteration 222.
+[Iteration 222] Most frequent motif: Sc1ccccc1, frequency: 2496.
+
+[2023-06-29 19:04:18.036467] Iteration 223.
+[Iteration 223] Most frequent motif: CC(=O)OC(C)(C)C, frequency: 2491.
+
+[2023-06-29 19:04:21.561612] Iteration 224.
+[Iteration 224] Most frequent motif: c1nnnn1, frequency: 2473.
+
+[2023-06-29 19:04:26.265993] Iteration 225.
+[Iteration 225] Most frequent motif: NCCc1ccccc1, frequency: 2450.
+
+[2023-06-29 19:04:30.732963] Iteration 226.
+[Iteration 226] Most frequent motif: c1ccc2cnccc2c1, frequency: 2448.
+
+[2023-06-29 19:04:35.524311] Iteration 227.
+[Iteration 227] Most frequent motif: CNCC=O, frequency: 2432.
+
+[2023-06-29 19:04:40.744427] Iteration 228.
+[Iteration 228] Most frequent motif: Cc1ccc(O)cc1, frequency: 2404.
+
+[2023-06-29 19:04:45.188868] Iteration 229.
+[Iteration 229] Most frequent motif: CCNC(=O)CF, frequency: 2374.
+
+[2023-06-29 19:04:47.183849] Iteration 230.
+[Iteration 230] Most frequent motif: CC#N, frequency: 2365.
+
+[2023-06-29 19:04:50.200988] Iteration 231.
+[Iteration 231] Most frequent motif: cncncn, frequency: 2360.
+
+[2023-06-29 19:04:55.836811] Iteration 232.
+[Iteration 232] Most frequent motif: FC(F)(F)Oc1ccccc1, frequency: 2343.
+
+[2023-06-29 19:04:59.725616] Iteration 233.
+[Iteration 233] Most frequent motif: C1CCOCC1, frequency: 2336.
+
+[2023-06-29 19:05:03.567405] Iteration 234.
+[Iteration 234] Most frequent motif: ccccnc, frequency: 2323.
+
+[2023-06-29 19:05:08.838974] Iteration 235.
+[Iteration 235] Most frequent motif: c1ccc2ncncc2c1, frequency: 3419.
+
+[2023-06-29 19:05:15.892292] Iteration 236.
+[Iteration 236] Most frequent motif: CC(C)[Si], frequency: 2322.
+
+[2023-06-29 19:05:17.694772] Iteration 237.
+[Iteration 237] Most frequent motif: NC(=O)CF, frequency: 2318.
+
+[2023-06-29 19:05:19.610052] Iteration 238.
+[Iteration 238] Most frequent motif: Fc1cccc(Cl)c1, frequency: 2314.
+
+[2023-06-29 19:05:23.642148] Iteration 239.
+[Iteration 239] Most frequent motif: CCNCCO, frequency: 2261.
+
+[2023-06-29 19:05:27.905539] Iteration 240.
+[Iteration 240] Most frequent motif: CCC#N, frequency: 2260.
+
+[2023-06-29 19:05:31.030418] Iteration 241.
+[Iteration 241] Most frequent motif: Clc1ccncn1, frequency: 2254.
+
+[2023-06-29 19:05:34.015898] Iteration 242.
+[Iteration 242] Most frequent motif: Cc1cccs1, frequency: 2251.
+
+[2023-06-29 19:05:37.232491] Iteration 243.
+[Iteration 243] Most frequent motif: NC=S, frequency: 2244.
+
+[2023-06-29 19:05:40.787602] Iteration 244.
+[Iteration 244] Most frequent motif: Cc1ccnn1, frequency: 2240.
+
+[2023-06-29 19:05:44.343151] Iteration 245.
+[Iteration 245] Most frequent motif: CCCC(N)=O, frequency: 2231.
+
+[2023-06-29 19:05:48.386670] Iteration 246.
+[Iteration 246] Most frequent motif: N=CN, frequency: 2219.
+
+[2023-06-29 19:05:51.881297] Iteration 247.
+[Iteration 247] Most frequent motif: ccccc=O, frequency: 2189.
+
+[2023-06-29 19:05:56.225654] Iteration 248.
+[Iteration 248] Most frequent motif: Cn1ccnc1, frequency: 2172.
+
+[2023-06-29 19:05:59.744978] Iteration 249.
+[Iteration 249] Most frequent motif: Cn1ccc2ccccc21, frequency: 2171.
+
+[2023-06-29 19:06:03.885720] Iteration 250.
+[Iteration 250] Most frequent motif: OC(F)F, frequency: 2168.
+
+[2023-06-29 19:06:06.388783] Iteration 251.
+[Iteration 251] Most frequent motif: CCNc1ccccc1, frequency: 2158.
+
+[2023-06-29 19:06:10.815506] Iteration 252.
+[Iteration 252] Most frequent motif: NCC(=O)O, frequency: 2153.
+
+[2023-06-29 19:06:14.213759] Iteration 253.
+[Iteration 253] Most frequent motif: CCOC(=O)CN, frequency: 2143.
+
+[2023-06-29 19:06:17.360184] Iteration 254.
+[Iteration 254] Most frequent motif: CC(C)(C)OC(=O)NCC=O, frequency: 2140.
+
+[2023-06-29 19:06:21.364918] Iteration 255.
+[Iteration 255] Most frequent motif: CCCS, frequency: 2139.
+
+[2023-06-29 19:06:24.635012] Iteration 256.
+[Iteration 256] Most frequent motif: ccc1cccnc1, frequency: 2132.
+
+[2023-06-29 19:06:29.382581] Iteration 257.
+[Iteration 257] Most frequent motif: CC(C)C(N)=O, frequency: 2098.
+
+[2023-06-29 19:06:32.425388] Iteration 258.
+[Iteration 258] Most frequent motif: Cc1cccc(O)c1, frequency: 2063.
+
+[2023-06-29 19:06:36.071240] Iteration 259.
+[Iteration 259] Most frequent motif: CC1CCCCC1, frequency: 2050.
+
+[2023-06-29 19:06:39.473502] Iteration 260.
+[Iteration 260] Most frequent motif: c1ccc(-c2ccccc2)cc1, frequency: 2049.
+
+[2023-06-29 19:06:43.781604] Iteration 261.
+[Iteration 261] Most frequent motif: Cc1cccc(C(F)(F)F)c1, frequency: 2041.
+
+[2023-06-29 19:06:46.914527] Iteration 262.
+[Iteration 262] Most frequent motif: CCCNC, frequency: 2031.
+
+[2023-06-29 19:06:50.298859] Iteration 263.
+[Iteration 263] Most frequent motif: OCC(F)(F)F, frequency: 2026.
+
+[2023-06-29 19:06:53.807342] Iteration 264.
+[Iteration 264] Most frequent motif: ccc=O, frequency: 2007.
+
+[2023-06-29 19:06:57.950995] Iteration 265.
+[Iteration 265] Most frequent motif: Cc1cnco1, frequency: 1991.
+
+[2023-06-29 19:07:01.785657] Iteration 266.
+[Iteration 266] Most frequent motif: c1ccc2[nH]ncc2c1, frequency: 1987.
+
+[2023-06-29 19:07:05.329825] Iteration 267.
+[Iteration 267] Most frequent motif: c1ccn2ccnc2c1, frequency: 1968.
+
+[2023-06-29 19:07:08.799152] Iteration 268.
+[Iteration 268] Most frequent motif: c1ccc2c(c1)OCO2, frequency: 1960.
+
+[2023-06-29 19:07:12.288370] Iteration 269.
+[Iteration 269] Most frequent motif: O=C(Nc1ccccc1)c1ccccc1, frequency: 1956.
+
+[2023-06-29 19:07:16.672006] Iteration 270.
+[Iteration 270] Most frequent motif: Cc1ccccc1O, frequency: 1951.
+
+[2023-06-29 19:07:20.165267] Iteration 271.
+[Iteration 271] Most frequent motif: c1cnnn1, frequency: 1945.
+
+[2023-06-29 19:07:23.681934] Iteration 272.
+[Iteration 272] Most frequent motif: CC(O)C(F)F, frequency: 1930.
+
+[2023-06-29 19:07:26.072128] Iteration 273.
+[Iteration 273] Most frequent motif: CCC(C)N, frequency: 1921.
+
+[2023-06-29 19:07:29.174487] Iteration 274.
+[Iteration 274] Most frequent motif: COCC[Si](C)(C)C, frequency: 1919.
+
+[2023-06-29 19:07:32.267630] Iteration 275.
+[Iteration 275] Most frequent motif: COCCO, frequency: 1918.
+
+[2023-06-29 19:07:35.370306] Iteration 276.
+[Iteration 276] Most frequent motif: CCCCCCO, frequency: 1908.
+
+[2023-06-29 19:07:38.675051] Iteration 277.
+[Iteration 277] Most frequent motif: CC(C)(C)N, frequency: 1897.
+
+[2023-06-29 19:07:41.551132] Iteration 278.
+[Iteration 278] Most frequent motif: ccc1cncnc1, frequency: 1892.
+
+[2023-06-29 19:07:46.120274] Iteration 279.
+[Iteration 279] Most frequent motif: CC(C)NC=O, frequency: 1886.
+
+[2023-06-29 19:07:48.893097] Iteration 280.
+[Iteration 280] Most frequent motif: NS(=O)(=O)c1ccccc1, frequency: 1882.
+
+[2023-06-29 19:07:52.026866] Iteration 281.
+[Iteration 281] Most frequent motif: CC(C)=O, frequency: 1878.
+
+[2023-06-29 19:07:54.677834] Iteration 282.
+[Iteration 282] Most frequent motif: Oc1ccccc1F, frequency: 1860.
+
+[2023-06-29 19:07:58.192788] Iteration 283.
+[Iteration 283] Most frequent motif: CCNC(=O)OCc1ccccc1, frequency: 1848.
+
+[2023-06-29 19:08:01.319301] Iteration 284.
+[Iteration 284] Most frequent motif: COc1cccc(OC)c1, frequency: 1836.
+
+[2023-06-29 19:08:04.683522] Iteration 285.
+[Iteration 285] Most frequent motif: CCN(CC)C(=O)OC(C)(C)C, frequency: 1814.
+
+[2023-06-29 19:08:07.326444] Iteration 286.
+[Iteration 286] Most frequent motif: c1ncc2ncnc2n1, frequency: 1803.
+
+[2023-06-29 19:08:11.576471] Iteration 287.
+[Iteration 287] Most frequent motif: CCCCF, frequency: 1802.
+
+[2023-06-29 19:08:13.489049] Iteration 288.
+[Iteration 288] Most frequent motif: Cc1ccncn1, frequency: 1785.
+
+[2023-06-29 19:08:16.050397] Iteration 289.
+[Iteration 289] Most frequent motif: CC(C)c1ccccc1, frequency: 1784.
+
+[2023-06-29 19:08:18.967550] Iteration 290.
+[Iteration 290] Most frequent motif: O=C(O)CO, frequency: 1779.
+
+[2023-06-29 19:08:21.879273] Iteration 291.
+[Iteration 291] Most frequent motif: NCCF, frequency: 1774.
+
+[2023-06-29 19:08:23.570870] Iteration 292.
+[Iteration 292] Most frequent motif: CS(N)(=O)=O, frequency: 1768.
+
+[2023-06-29 19:08:26.340094] Iteration 293.
+[Iteration 293] Most frequent motif: Fc1ccccc1Cl, frequency: 1742.
+
+[2023-06-29 19:08:29.288369] Iteration 294.
+[Iteration 294] Most frequent motif: c1ccc(C(c2ccccc2)c2ccccc2)cc1, frequency: 1730.
+
+[2023-06-29 19:08:33.359015] Iteration 295.
+[Iteration 295] Most frequent motif: CCCNC=O, frequency: 1728.
+
+[2023-06-29 19:08:36.342516] Iteration 296.
+[Iteration 296] Most frequent motif: c1ccc(Oc2ccccc2)cc1, frequency: 1725.
+
+[2023-06-29 19:08:39.586504] Iteration 297.
+[Iteration 297] Most frequent motif: CC(C)(C)OC(=O)N1CCCCC1, frequency: 1722.
+
+[2023-06-29 19:08:42.638398] Iteration 298.
+[Iteration 298] Most frequent motif: COc1ccccc1C, frequency: 1719.
+
+[2023-06-29 19:08:45.893052] Iteration 299.
+[Iteration 299] Most frequent motif: Cc1cncn1, frequency: 1687.
+
+[2023-06-29 19:08:49.113044] Iteration 300.
+[Iteration 300] Most frequent motif: O=c1ccnc[nH]1, frequency: 1684.
+
+[2023-06-29 19:08:52.359399] Iteration 301.
+[Iteration 301] Most frequent motif: NC1CCNCC1, frequency: 1660.
+
+[2023-06-29 19:08:55.575553] Iteration 302.
+[Iteration 302] Most frequent motif: COc1ccc(C)cc1OC, frequency: 1653.
+
+[2023-06-29 19:08:58.046257] Iteration 303.
+[Iteration 303] Most frequent motif: CCNC(=O)CN, frequency: 1650.
+
+[2023-06-29 19:09:01.579915] Iteration 304.
+[Iteration 304] Most frequent motif: Oc1ccccn1, frequency: 1649.
+
+[2023-06-29 19:09:04.501277] Iteration 305.
+[Iteration 305] Most frequent motif: CC1(C)OBOC1(C)C, frequency: 1648.
+
+[2023-06-29 19:09:06.806937] Iteration 306.
+[Iteration 306] Most frequent motif: C[SiH], frequency: 1641.
+
+[2023-06-29 19:09:08.451009] Iteration 307.
+[Iteration 307] Most frequent motif: COC, frequency: 1629.
+
+[2023-06-29 19:09:10.960253] Iteration 308.
+[Iteration 308] Most frequent motif: CCCOC, frequency: 1618.
+
+[2023-06-29 19:09:13.488468] Iteration 309.
+[Iteration 309] Most frequent motif: [Si]c1ccccc1, frequency: 1612.
+
+[2023-06-29 19:09:15.893247] Iteration 310.
+[Iteration 310] Most frequent motif: C=CC(N)=O, frequency: 1607.
+
+[2023-06-29 19:09:18.935313] Iteration 311.
+[Iteration 311] Most frequent motif: CNCCO, frequency: 1604.
+
+[2023-06-29 19:09:21.799120] Iteration 312.
+[Iteration 312] Most frequent motif: Clc1ncccn1, frequency: 1596.
+
+[2023-06-29 19:09:24.374933] Iteration 313.
+[Iteration 313] Most frequent motif: CCC(=O)NC, frequency: 1592.
+
+[2023-06-29 19:09:27.145924] Iteration 314.
+[Iteration 314] Most frequent motif: O=Cc1ccccc1Cl, frequency: 1585.
+
+[2023-06-29 19:09:29.741483] Iteration 315.
+[Iteration 315] Most frequent motif: COc1ccccc1Cl, frequency: 1579.
+
+[2023-06-29 19:09:32.611167] Iteration 316.
+[Iteration 316] Most frequent motif: O=c1cccnn1, frequency: 1574.
+
+[2023-06-29 19:09:36.299309] Iteration 317.
+[Iteration 317] Most frequent motif: CC(C)(O)CF, frequency: 1574.
+
+[2023-06-29 19:09:37.711335] Iteration 318.
+[Iteration 318] Most frequent motif: CC(C)OC=O, frequency: 1564.
+
+[2023-06-29 19:09:40.407852] Iteration 319.
+[Iteration 319] Most frequent motif: CCNC(=O)C(F)F, frequency: 1559.
+
+[2023-06-29 19:09:42.214050] Iteration 320.
+[Iteration 320] Most frequent motif: CBr, frequency: 1554.
+
+[2023-06-29 19:09:43.927122] Iteration 321.
+[Iteration 321] Most frequent motif: CCNc1ccccn1, frequency: 1549.
+
+[2023-06-29 19:09:46.909243] Iteration 322.
+[Iteration 322] Most frequent motif: O=c1cccc[nH]1, frequency: 1545.
+
+[2023-06-29 19:09:49.671743] Iteration 323.
+[Iteration 323] Most frequent motif: cc[nH], frequency: 1538.
+
+[2023-06-29 19:09:52.451460] Iteration 324.
+[Iteration 324] Most frequent motif: CCOC(=O)CO, frequency: 1537.
+
+[2023-06-29 19:09:54.669392] Iteration 325.
+[Iteration 325] Most frequent motif: CCNC(C)C, frequency: 1535.
+
+[2023-06-29 19:09:57.397120] Iteration 326.
+[Iteration 326] Most frequent motif: c1cnc2[nH]ccc2c1, frequency: 1533.
+
+[2023-06-29 19:10:00.085852] Iteration 327.
+[Iteration 327] Most frequent motif: CC(C)[Si]C(C)C, frequency: 1530.
+
+[2023-06-29 19:10:01.865717] Iteration 328.
+[Iteration 328] Most frequent motif: CCCCCCC, frequency: 1527.
+
+[2023-06-29 19:10:04.665425] Iteration 329.
+[Iteration 329] Most frequent motif: CN1CCCCC1, frequency: 1520.
+
+[2023-06-29 19:10:07.180735] Iteration 330.
+[Iteration 330] Most frequent motif: OBO, frequency: 1518.
+
+[2023-06-29 19:10:08.790056] Iteration 331.
+[Iteration 331] Most frequent motif: CC(=O)NCC=O, frequency: 1517.
+
+[2023-06-29 19:10:12.359491] Iteration 332.
+[Iteration 332] Most frequent motif: [n+][O-], frequency: 1506.
+
+[2023-06-29 19:10:14.603703] Iteration 333.
+[Iteration 333] Most frequent motif: C=CCO, frequency: 1502.
+
+[2023-06-29 19:10:16.605463] Iteration 334.
+[Iteration 334] Most frequent motif: O=CNCc1ccccc1, frequency: 1501.
+
+[2023-06-29 19:10:19.668802] Iteration 335.
+[Iteration 335] Most frequent motif: CCNc1ncccn1, frequency: 1494.
+
+[2023-06-29 19:10:22.912352] Iteration 336.
+[Iteration 336] Most frequent motif: NC(=O)CO, frequency: 1490.
+
+[2023-06-29 19:10:25.762493] Iteration 337.
+[Iteration 337] Most frequent motif: Nc1ccccc1F, frequency: 1484.
+
+[2023-06-29 19:10:28.252840] Iteration 338.
+[Iteration 338] Most frequent motif: CNC(=O)OC(C)(C)C, frequency: 1482.
+
+[2023-06-29 19:10:30.685498] Iteration 339.
+[Iteration 339] Most frequent motif: ncncN, frequency: 1458.
+
+[2023-06-29 19:10:33.557627] Iteration 340.
+[Iteration 340] Most frequent motif: NC(=O)C(F)F, frequency: 1456.
+
+[2023-06-29 19:10:35.173426] Iteration 341.
+[Iteration 341] Most frequent motif: COc1cccc(C=O)c1, frequency: 1451.
+
+[2023-06-29 19:10:37.371159] Iteration 342.
+[Iteration 342] Most frequent motif: CCCC[Sn], frequency: 1439.
+
+[2023-06-29 19:10:38.408097] Iteration 343.
+[Iteration 343] Most frequent motif: Brc1cccnc1, frequency: 1430.
+
+[2023-06-29 19:10:40.378602] Iteration 344.
+[Iteration 344] Most frequent motif: OC1CCCCC1, frequency: 1429.
+
+[2023-06-29 19:10:43.012099] Iteration 345.
+[Iteration 345] Most frequent motif: C[SH]=O, frequency: 1426.
+
+[2023-06-29 19:10:45.243280] Iteration 346.
+[Iteration 346] Most frequent motif: CNc1ccccc1, frequency: 1424.
+
+[2023-06-29 19:10:47.744805] Iteration 347.
+[Iteration 347] Most frequent motif: cccc1ccccc1, frequency: 1419.
+
+[2023-06-29 19:10:51.545508] Iteration 348.
+[Iteration 348] Most frequent motif: c1nnco1, frequency: 1415.
+
+[2023-06-29 19:10:54.050895] Iteration 349.
+[Iteration 349] Most frequent motif: CN(C)C, frequency: 1408.
+
+[2023-06-29 19:10:56.103603] Iteration 350.
+[Iteration 350] Most frequent motif: Fc1cccnc1, frequency: 1392.
+
+[2023-06-29 19:10:58.360738] Iteration 351.
+[Iteration 351] Most frequent motif: CCCC(=O)O, frequency: 1382.
+
+[2023-06-29 19:11:00.447038] Iteration 352.
+[Iteration 352] Most frequent motif: Cc1ccsc1, frequency: 1378.
+
+[2023-06-29 19:11:02.432655] Iteration 353.
+[Iteration 353] Most frequent motif: OC(c1ccccc1)c1ccccc1, frequency: 1372.
+
+[2023-06-29 19:11:05.137905] Iteration 354.
+[Iteration 354] Most frequent motif: FC(F)(F)c1cccc(C(F)(F)F)c1, frequency: 1370.
+
+[2023-06-29 19:11:07.894315] Iteration 355.
+[Iteration 355] Most frequent motif: CCOC(=O)CC=O, frequency: 1367.
+
+[2023-06-29 19:11:10.169144] Iteration 356.
+[Iteration 356] Most frequent motif: CCNCC=O, frequency: 1358.
+
+[2023-06-29 19:11:13.086270] Iteration 357.
+[Iteration 357] Most frequent motif: NC(=O)C1CC1, frequency: 1356.
+
+[2023-06-29 19:11:15.715921] Iteration 358.
+[Iteration 358] Most frequent motif: NN, frequency: 1355.
+
+[2023-06-29 19:11:17.636317] Iteration 359.
+[Iteration 359] Most frequent motif: CCOCC, frequency: 1349.
+
+[2023-06-29 19:11:20.057526] Iteration 360.
+[Iteration 360] Most frequent motif: CCO[PH](=O)OCC, frequency: 1341.
+
+[2023-06-29 19:11:22.025333] Iteration 361.
+[Iteration 361] Most frequent motif: Cncn, frequency: 1339.
+
+[2023-06-29 19:11:24.530294] Iteration 362.
+[Iteration 362] Most frequent motif: CCN1C(=O)c2ccccc2C1=O, frequency: 1336.
+
+[2023-06-29 19:11:26.889304] Iteration 363.
+[Iteration 363] Most frequent motif: FC(F)(F)c1cccc(Cl)c1, frequency: 1332.
+
+[2023-06-29 19:11:28.835039] Iteration 364.
+[Iteration 364] Most frequent motif: O=[SH](=O)C(F)(F)F, frequency: 1330.
+
+[2023-06-29 19:11:30.819336] Iteration 365.
+[Iteration 365] Most frequent motif: c1ccc2scnc2c1, frequency: 1327.
+
+[2023-06-29 19:11:33.150823] Iteration 366.
+[Iteration 366] Most frequent motif: ccs, frequency: 1326.
+
+[2023-06-29 19:11:35.764321] Iteration 367.
+[Iteration 367] Most frequent motif: CC(C)CN, frequency: 1321.
+
+[2023-06-29 19:11:38.028319] Iteration 368.
+[Iteration 368] Most frequent motif: Nc1nccs1, frequency: 1320.
+
+[2023-06-29 19:11:40.050002] Iteration 369.
+[Iteration 369] Most frequent motif: CC(=O)c1ccccc1, frequency: 1320.
+
+[2023-06-29 19:11:42.081503] Iteration 370.
+[Iteration 370] Most frequent motif: SCc1ccccc1, frequency: 1318.
+
+[2023-06-29 19:11:44.345560] Iteration 371.
+[Iteration 371] Most frequent motif: COc1ccc(CN)cc1, frequency: 1312.
+
+[2023-06-29 19:11:47.311471] Iteration 372.
+[Iteration 372] Most frequent motif: Cc1ccno1, frequency: 1310.
+
+[2023-06-29 19:11:49.698777] Iteration 373.
+[Iteration 373] Most frequent motif: COc1ccccc1O, frequency: 1303.
+
+[2023-06-29 19:11:52.118319] Iteration 374.
+[Iteration 374] Most frequent motif: COC(=O)CO, frequency: 1301.
+
+[2023-06-29 19:11:54.063764] Iteration 375.
+[Iteration 375] Most frequent motif: ccncn, frequency: 1299.
+
+[2023-06-29 19:11:56.957345] Iteration 376.
+[Iteration 376] Most frequent motif: c1cnc2nccc2c1, frequency: 1496.
+
+[2023-06-29 19:12:00.299265] Iteration 377.
+[Iteration 377] Most frequent motif: CN[SH](=O)=O, frequency: 1299.
+
+[2023-06-29 19:12:02.846757] Iteration 378.
+[Iteration 378] Most frequent motif: OC(CF)C(F)F, frequency: 1298.
+
+[2023-06-29 19:12:04.137349] Iteration 379.
+[Iteration 379] Most frequent motif: CC(C)(C)C=O, frequency: 1298.
+
+[2023-06-29 19:12:06.432627] Iteration 380.
+[Iteration 380] Most frequent motif: CCN(C)Cc1ccccc1, frequency: 1290.
+
+[2023-06-29 19:12:08.977123] Iteration 381.
+[Iteration 381] Most frequent motif: O=c1ccnc(=O)n1, frequency: 1284.
+
+[2023-06-29 19:12:12.303420] Iteration 382.
+[Iteration 382] Most frequent motif: [P+]c1ccccc1, frequency: 1279.
+
+[2023-06-29 19:12:13.571924] Iteration 383.
+[Iteration 383] Most frequent motif: C=Cc1ccccc1, frequency: 1275.
+
+[2023-06-29 19:12:15.885526] Iteration 384.
+[Iteration 384] Most frequent motif: Fc1ccccn1, frequency: 1263.
+
+[2023-06-29 19:12:17.897890] Iteration 385.
+[Iteration 385] Most frequent motif: CS(=O)(=O)c1ccccc1, frequency: 1258.
+
+[2023-06-29 19:12:20.013223] Iteration 386.
+[Iteration 386] Most frequent motif: OC1CCNCC1, frequency: 1255.
+
+[2023-06-29 19:12:22.158248] Iteration 387.
+[Iteration 387] Most frequent motif: OCCCO, frequency: 1251.
+
+[2023-06-29 19:12:24.458192] Iteration 388.
+[Iteration 388] Most frequent motif: CNC(C)C, frequency: 1243.
+
+[2023-06-29 19:12:26.819593] Iteration 389.
+[Iteration 389] Most frequent motif: CC(=O)N1CCNCC1, frequency: 1242.
+
+[2023-06-29 19:12:29.418338] Iteration 390.
+[Iteration 390] Most frequent motif: Clc1cccs1, frequency: 1239.
+
+[2023-06-29 19:12:31.400447] Iteration 391.
+[Iteration 391] Most frequent motif: CC(=O)NCc1ccccc1, frequency: 1238.
+
+[2023-06-29 19:12:33.915327] Iteration 392.
+[Iteration 392] Most frequent motif: CCOCCO, frequency: 1237.
+
+[2023-06-29 19:12:35.661117] Iteration 393.
+[Iteration 393] Most frequent motif: c1ccc(-n2cccn2)cc1, frequency: 1232.
+
+[2023-06-29 19:12:38.288994] Iteration 394.
+[Iteration 394] Most frequent motif: c1ncncn1, frequency: 1231.
+
+[2023-06-29 19:12:41.142799] Iteration 395.
+[Iteration 395] Most frequent motif: CCCCCO, frequency: 1231.
+
+[2023-06-29 19:12:43.545872] Iteration 396.
+[Iteration 396] Most frequent motif: CC(C)(C)OC(=O)N1CCNCC1, frequency: 1230.
+
+[2023-06-29 19:12:45.430762] Iteration 397.
+[Iteration 397] Most frequent motif: CCC(=O)OC(C)(C)C, frequency: 1228.
+
+[2023-06-29 19:12:47.586809] Iteration 398.
+[Iteration 398] Most frequent motif: Cc1ccccc1N, frequency: 1227.
+
+[2023-06-29 19:12:49.666991] Iteration 399.
+[Iteration 399] Most frequent motif: Cc1ccc(C)c(C)c1, frequency: 1223.
+
+[2023-06-29 19:12:52.107305] Iteration 400.
+[Iteration 400] Most frequent motif: cnn, frequency: 1220.
+
+[2023-06-29 19:12:54.900488] Iteration 401.
+[Iteration 401] Most frequent motif: nccccn, frequency: 1204.
+
+[2023-06-29 19:12:57.608844] Iteration 402.
+[Iteration 402] Most frequent motif: cc1cncn1, frequency: 1203.
+
+[2023-06-29 19:13:00.705239] Iteration 403.
+[Iteration 403] Most frequent motif: Cc1ccc(OCF)cc1, frequency: 1203.
+
+[2023-06-29 19:13:02.070099] Iteration 404.
+[Iteration 404] Most frequent motif: CON, frequency: 1196.
+
+[2023-06-29 19:13:04.638880] Iteration 405.
+[Iteration 405] Most frequent motif: CCCl, frequency: 1191.
+
+[2023-06-29 19:13:06.012813] Iteration 406.
+[Iteration 406] Most frequent motif: Cc1ccc(-c2ccccc2)cc1, frequency: 1180.
+
+[2023-06-29 19:13:08.984498] Iteration 407.
+[Iteration 407] Most frequent motif: CC(C)Oc1ccccc1, frequency: 1178.
+
+[2023-06-29 19:13:11.322335] Iteration 408.
+[Iteration 408] Most frequent motif: c1ccc2[nH]cnc2c1, frequency: 1172.
+
+[2023-06-29 19:13:13.373966] Iteration 409.
+[Iteration 409] Most frequent motif: O=CCF, frequency: 1171.
+
+[2023-06-29 19:13:14.418162] Iteration 410.
+[Iteration 410] Most frequent motif: Cc1ccncc1, frequency: 1162.
+
+[2023-06-29 19:13:16.243740] Iteration 411.
+[Iteration 411] Most frequent motif: CCC(F)(F)F, frequency: 1162.
+
+[2023-06-29 19:13:18.493776] Iteration 412.
+[Iteration 412] Most frequent motif: Nc1cnccn1, frequency: 1156.
+
+[2023-06-29 19:13:20.375419] Iteration 413.
+[Iteration 413] Most frequent motif: O=[SH](=O)Cl, frequency: 1153.
+
+[2023-06-29 19:13:21.859486] Iteration 414.
+[Iteration 414] Most frequent motif: CCCCCCCCCCCC, frequency: 1152.
+
+[2023-06-29 19:13:23.764886] Iteration 415.
+[Iteration 415] Most frequent motif: CC1CC1, frequency: 1141.
+
+[2023-06-29 19:13:25.729822] Iteration 416.
+[Iteration 416] Most frequent motif: CCCNC(C)=O, frequency: 1134.
+
+[2023-06-29 19:13:27.977422] Iteration 417.
+[Iteration 417] Most frequent motif: O=c1ccnc2ccccc12, frequency: 1121.
+
+[2023-06-29 19:13:31.600422] Iteration 418.
+[Iteration 418] Most frequent motif: O=CCC=O, frequency: 1117.
+
+[2023-06-29 19:13:33.833776] Iteration 419.
+[Iteration 419] Most frequent motif: COc1ccc(C=O)cc1, frequency: 1117.
+
+[2023-06-29 19:13:35.699864] Iteration 420.
+[Iteration 420] Most frequent motif: c1nncs1, frequency: 1113.
+
+[2023-06-29 19:13:37.488578] Iteration 421.
+[Iteration 421] Most frequent motif: CCN(C)C=O, frequency: 1111.
+
+[2023-06-29 19:13:39.876992] Iteration 422.
+[Iteration 422] Most frequent motif: Cc1cccc(N)c1, frequency: 1107.
+
+[2023-06-29 19:13:42.030788] Iteration 423.
+[Iteration 423] Most frequent motif: Cn1cccc1, frequency: 1102.
+
+[2023-06-29 19:13:43.971054] Iteration 424.
+[Iteration 424] Most frequent motif: Cc1ccc2ccccc2n1, frequency: 1102.
+
+[2023-06-29 19:13:45.881780] Iteration 425.
+[Iteration 425] Most frequent motif: COc1ccccc1F, frequency: 1096.
+
+[2023-06-29 19:13:47.832974] Iteration 426.
+[Iteration 426] Most frequent motif: CCCCNCC, frequency: 1095.
+
+[2023-06-29 19:13:50.252826] Iteration 427.
+[Iteration 427] Most frequent motif: O=CCOc1ccccc1, frequency: 1090.
+
+[2023-06-29 19:13:52.789298] Iteration 428.
+[Iteration 428] Most frequent motif: CCCCc1ccccc1, frequency: 1084.
+
+[2023-06-29 19:13:54.737851] Iteration 429.
+[Iteration 429] Most frequent motif: CCN1CCCC1, frequency: 1081.
+
+[2023-06-29 19:13:56.745497] Iteration 430.
+[Iteration 430] Most frequent motif: cccccn, frequency: 1076.
+
+[2023-06-29 19:13:59.258626] Iteration 431.
+[Iteration 431] Most frequent motif: O=C1NC(=O)c2ccccc21, frequency: 1075.
+
+[2023-06-29 19:14:01.161021] Iteration 432.
+[Iteration 432] Most frequent motif: Brc1ccccn1, frequency: 1071.
+
+[2023-06-29 19:14:02.633741] Iteration 433.
+[Iteration 433] Most frequent motif: CCCCl, frequency: 1069.
+
+[2023-06-29 19:14:03.992988] Iteration 434.
+[Iteration 434] Most frequent motif: CC(C)(C)C, frequency: 1064.
+
+[2023-06-29 19:14:05.874390] Iteration 435.
+[Iteration 435] Most frequent motif: FCC(F)F, frequency: 1049.
+
+[2023-06-29 19:14:06.803134] Iteration 436.
+[Iteration 436] Most frequent motif: CCO[Si](C)(C)C(C)(C)C, frequency: 1048.
+
+[2023-06-29 19:14:08.627951] Iteration 437.
+[Iteration 437] Most frequent motif: CC1CCCC1, frequency: 1047.
+
+[2023-06-29 19:14:10.390054] Iteration 438.
+[Iteration 438] Most frequent motif: OCC1CC1, frequency: 1046.
+
+[2023-06-29 19:14:12.181583] Iteration 439.
+[Iteration 439] Most frequent motif: ncnc=O, frequency: 1039.
+
+[2023-06-29 19:14:14.673388] Iteration 440.
+[Iteration 440] Most frequent motif: NC(=O)Nc1ccccc1, frequency: 1039.
+
+[2023-06-29 19:14:16.869696] Iteration 441.
+[Iteration 441] Most frequent motif: COc1cccc(OC)c1OC, frequency: 1039.
+
+[2023-06-29 19:14:18.810169] Iteration 442.
+[Iteration 442] Most frequent motif: CCN1CCOCC1, frequency: 1037.
+
+[2023-06-29 19:14:20.763727] Iteration 443.
+[Iteration 443] Most frequent motif: ccc(=O)c1ccccc1, frequency: 1032.
+
+[2023-06-29 19:14:23.498388] Iteration 444.
+[Iteration 444] Most frequent motif: NC(=O)c1ccccc1F, frequency: 1026.
+
+[2023-06-29 19:14:25.147948] Iteration 445.
+[Iteration 445] Most frequent motif: CC(F)(F)F, frequency: 1026.
+
+[2023-06-29 19:14:26.862028] Iteration 446.
+[Iteration 446] Most frequent motif: ncccn, frequency: 1025.
+
+[2023-06-29 19:14:29.280878] Iteration 447.
+[Iteration 447] Most frequent motif: c1cnc2ccnn2c1, frequency: 1256.
+
+[2023-06-29 19:14:31.949971] Iteration 448.
+[Iteration 448] Most frequent motif: Cc1ccco1, frequency: 1022.
+
+[2023-06-29 19:14:33.499342] Iteration 449.
+[Iteration 449] Most frequent motif: CC[SH](=O)=O, frequency: 1019.
+
+[2023-06-29 19:14:35.252583] Iteration 450.
+[Iteration 450] Most frequent motif: c1cnn2ccnc2c1, frequency: 1017.
+
+[2023-06-29 19:14:37.180955] Iteration 451.
+[Iteration 451] Most frequent motif: ncc=O, frequency: 1014.
+
+[2023-06-29 19:14:39.196029] Iteration 452.
+[Iteration 452] Most frequent motif: COc1ccncn1, frequency: 1013.
+
+[2023-06-29 19:14:40.621341] Iteration 453.
+[Iteration 453] Most frequent motif: CCN(C)C(C)=O, frequency: 1011.
+
+[2023-06-29 19:14:43.026113] Iteration 454.
+[Iteration 454] Most frequent motif: Nc1ccc(O)cc1, frequency: 1010.
+
+[2023-06-29 19:14:44.815613] Iteration 455.
+[Iteration 455] Most frequent motif: O=c1ccnc(=O)[nH]1, frequency: 999.
+
+[2023-06-29 19:14:46.855137] Iteration 456.
+[Iteration 456] Most frequent motif: Cc1cnc(-c2ccccc2)o1, frequency: 999.
+
+[2023-06-29 19:14:48.792590] Iteration 457.
+[Iteration 457] Most frequent motif: NCC(F)F, frequency: 991.
+
+[2023-06-29 19:14:50.064163] Iteration 458.
+[Iteration 458] Most frequent motif: c1cnc2nncc2c1, frequency: 988.
+
+[2023-06-29 19:14:52.755882] Iteration 459.
+[Iteration 459] Most frequent motif: CCNC(=O)c1cccc(OC)c1, frequency: 988.
+
+[2023-06-29 19:14:54.842588] Iteration 460.
+[Iteration 460] Most frequent motif: O=cc1ccccc1, frequency: 987.
+
+[2023-06-29 19:14:56.658068] Iteration 461.
+[Iteration 461] Most frequent motif: NC1CCCCC1, frequency: 987.
+
+[2023-06-29 19:14:58.433283] Iteration 462.
+[Iteration 462] Most frequent motif: CC(C)(C)c1ccccc1O, frequency: 980.
+
+[2023-06-29 19:14:59.821074] Iteration 463.
+[Iteration 463] Most frequent motif: COc1ccc2ncncc2c1, frequency: 972.
+
+[2023-06-29 19:15:01.963056] Iteration 464.
+[Iteration 464] Most frequent motif: NCC(N)=O, frequency: 970.
+
+[2023-06-29 19:15:03.968773] Iteration 465.
+[Iteration 465] Most frequent motif: CC(=O)NC=O, frequency: 964.
+
+[2023-06-29 19:15:05.918311] Iteration 466.
+[Iteration 466] Most frequent motif: Cc1cccc(Br)c1, frequency: 963.
+
+[2023-06-29 19:15:07.614297] Iteration 467.
+[Iteration 467] Most frequent motif: COc1ccc2ccccc2c1, frequency: 963.
+
+[2023-06-29 19:15:09.411316] Iteration 468.
+[Iteration 468] Most frequent motif: ncccc=O, frequency: 960.
+
+[2023-06-29 19:15:11.484498] Iteration 469.
+[Iteration 469] Most frequent motif: CC(C)S, frequency: 955.
+
+[2023-06-29 19:15:13.157569] Iteration 470.
+[Iteration 470] Most frequent motif: CCCC[Sn]CCCC, frequency: 953.
+
+[2023-06-29 19:15:14.330592] Iteration 471.
+[Iteration 471] Most frequent motif: c1nnn[nH]1, frequency: 948.
+
+[2023-06-29 19:15:16.074428] Iteration 472.
+[Iteration 472] Most frequent motif: CC(C)(C)OC(=O)NCCO, frequency: 945.
+
+[2023-06-29 19:15:17.774147] Iteration 473.
+[Iteration 473] Most frequent motif: c1ncc2ccsc2n1, frequency: 943.
+
+[2023-06-29 19:15:20.256266] Iteration 474.
+[Iteration 474] Most frequent motif: Fc1ccc(F)cc1, frequency: 942.
+
+[2023-06-29 19:15:22.066325] Iteration 475.
+[Iteration 475] Most frequent motif: C[Si](C)(C)C, frequency: 940.
+
+[2023-06-29 19:15:23.413107] Iteration 476.
+[Iteration 476] Most frequent motif: Cc1ccc(C)cc1, frequency: 939.
+
+[2023-06-29 19:15:25.230122] Iteration 477.
+[Iteration 477] Most frequent motif: c1ccc(Nc2ncccn2)cc1, frequency: 929.
+
+[2023-06-29 19:15:27.616554] Iteration 478.
+[Iteration 478] Most frequent motif: O=Cc1cccc(Cl)c1, frequency: 928.
+
+[2023-06-29 19:15:29.378916] Iteration 479.
+[Iteration 479] Most frequent motif: Nc1cccnc1, frequency: 927.
+
+[2023-06-29 19:15:30.869061] Iteration 480.
+[Iteration 480] Most frequent motif: cccc[nH], frequency: 926.
+
+[2023-06-29 19:15:32.831261] Iteration 481.
+[Iteration 481] Most frequent motif: C[N+], frequency: 926.
+
+[2023-06-29 19:15:34.054822] Iteration 482.
+[Iteration 482] Most frequent motif: O=C1CCCN1, frequency: 925.
+
+[2023-06-29 19:15:35.709864] Iteration 483.
+[Iteration 483] Most frequent motif: COP=O, frequency: 925.
+
+[2023-06-29 19:15:37.340501] Iteration 484.
+[Iteration 484] Most frequent motif: O=COCCCl, frequency: 918.
+
+[2023-06-29 19:15:38.305590] Iteration 485.
+[Iteration 485] Most frequent motif: CCCC#N, frequency: 918.
+
+[2023-06-29 19:15:39.778293] Iteration 486.
+[Iteration 486] Most frequent motif: CC(=O)OCCO, frequency: 917.
+
+[2023-06-29 19:15:41.639317] Iteration 487.
+[Iteration 487] Most frequent motif: CNCc1ccccc1, frequency: 916.
+
+[2023-06-29 19:15:43.359708] Iteration 488.
+[Iteration 488] Most frequent motif: OCCCl, frequency: 914.
+
+[2023-06-29 19:15:44.608606] Iteration 489.
+[Iteration 489] Most frequent motif: Cc1cc(C)cc(C)c1, frequency: 912.
+
+[2023-06-29 19:15:46.265565] Iteration 490.
+[Iteration 490] Most frequent motif: CC(=O)N(C)C, frequency: 912.
+
+[2023-06-29 19:15:47.995827] Iteration 491.
+[Iteration 491] Most frequent motif: O=COc1ccccc1, frequency: 905.
+
+[2023-06-29 19:15:49.604795] Iteration 492.
+[Iteration 492] Most frequent motif: c1ccc2[nH]ccc2c1, frequency: 898.
+
+[2023-06-29 19:15:51.257822] Iteration 493.
+[Iteration 493] Most frequent motif: CN(C)C=O, frequency: 896.
+
+[2023-06-29 19:15:52.801298] Iteration 494.
+[Iteration 494] Most frequent motif: OC1CCCC1, frequency: 893.
+
+[2023-06-29 19:15:54.349335] Iteration 495.
+[Iteration 495] Most frequent motif: Cc1ccc(N)cc1, frequency: 893.
+
+[2023-06-29 19:15:55.875275] Iteration 496.
+[Iteration 496] Most frequent motif: COCc1ccccc1, frequency: 892.
+
+[2023-06-29 19:15:57.513310] Iteration 497.
+[Iteration 497] Most frequent motif: O=CCl, frequency: 890.
+
+[2023-06-29 19:15:58.657992] Iteration 498.
+[Iteration 498] Most frequent motif: CC=N, frequency: 889.
+
+[2023-06-29 19:16:00.466299] Iteration 499.
+[Iteration 499] Most frequent motif: Oc1cccnc1, frequency: 888.
+
+Making fragments
+[2023-06-29 19:39:39.282759] Merging operation learning finished.
+The merging operations are in preprocess/USPTO-479k/merging_operation.txt.
+
+

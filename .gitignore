@@ -15,9 +15,9 @@
 /MolR/src/*.txt
 /MolR/src/*.sh
 /MolR/src/logs/
-/MBMR/MotifVocab/data/QM9
-/MBMR/MotifVocab/data/USPTO-479k
-/MBMR/MotifVocab/data/*.csv
-/MBMR/MotifVocab/preprocess/
-/MBMR/MotifVocab/*.txt
-/MBMR/MotifVocab/*.sh
+/MotifVocab/data/QM9
+/MotifVocab/data/USPTO-479k
+/MotifVocab/data/*.csv
+/MotifVocab/preprocess/
+/MotifVocab/*.txt
+/MotifVocab/*.sh

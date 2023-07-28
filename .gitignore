@@ -1,4 +1,6 @@
 # Project exclude paths
+
+# MolR
 /MolR/venv/
 /MolR/.idea/
 /MolR/data/USPTO-479k/cache
@@ -15,6 +17,12 @@
 /MolR/src/*.txt
 /MolR/src/*.sh
 /MolR/src/logs/
+/MolR/src/__pycache__/
+/MolR/src/ged_pred/__pycache__/
+/MolR/src/property_pred/__pycache__/
+/MolR/src/visualization/__pycache__/
+
+# MotifVocab
 /MotifVocab/data/QM9
 /MotifVocab/data/USPTO-479k
 /MotifVocab/data/*.csv

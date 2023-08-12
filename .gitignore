@@ -11,6 +11,9 @@
 /MolR/data/Similarity/
 /MolR/data/Negative-Samples/
 /MolR/data/HIV/HIV.bin
+/MolR/data/ToxCast/
+/MolR/data/SIDER/
+/MolR/data/MUV/
 /MolR/commands.txt
 /MolR/saved/
 /MolR/baseline

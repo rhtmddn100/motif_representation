@@ -3,6 +3,7 @@ import dgl
 import torch
 import pickle
 import pysmiles
+from rdkit import Chem
 from data_processing import networkx_to_dgl
 
 
@@ -12,6 +13,7 @@ class PropertyPredDataset(dgl.data.DGLDataset):
         self.path = '../data/' + args.dataset + '/' + args.dataset
         self.graphs = []
         self.labels = []
+        self.smiles_list = []
         super().__init__(name='property_pred_' + args.dataset)
 
     def to_gpu(self):
@@ -22,11 +24,15 @@ class PropertyPredDataset(dgl.data.DGLDataset):
     def save(self):
         print('saving ' + self.args.dataset + ' dataset to ' + self.path + '.bin')
         dgl.save_graphs(self.path + '.bin', self.graphs, {'label': self.labels})
+        with open(self.path + '_smiles.pkl', 'wb') as f:
+            pickle.dump(self.smiles_list, f)
 
     def load(self):
         print('loading ' + self.args.dataset + ' dataset from ' + self.path + '.bin')
         self.graphs, self.labels = dgl.load_graphs(self.path + '.bin')
         self.labels = self.labels['label']
+        with open(self.path + '_smiles.pkl', 'rb') as f:
+            self.smiles_list = pickle.load(f)
         self.to_gpu()
 
     def process(self):
@@ -58,15 +64,17 @@ class PropertyPredDataset(dgl.data.DGLDataset):
                     smiles = smiles.replace('[H]', '')
                 else:
                     raise ValueError('unknown dataset')
-                raw_graph = pysmiles.read_smiles(smiles, zero_order_bonds=False)
-                dgl_graph = networkx_to_dgl(raw_graph, feature_encoder)
-                self.graphs.append(dgl_graph)
-                self.labels.append(float(label))
+                if Chem.MolFromSmiles(smiles) is not None:
+                    self.smiles_list.append(smiles)
+                    raw_graph = pysmiles.read_smiles(smiles, zero_order_bonds=False)
+                    dgl_graph = networkx_to_dgl(raw_graph, feature_encoder)
+                    self.graphs.append(dgl_graph)
+                    self.labels.append(float(label))
         self.labels = torch.Tensor(self.labels)
         self.to_gpu()
 
     def has_cache(self):
-        if os.path.exists(self.path + '.bin'):
+        if os.path.exists(self.path + '.bin') and os.path.exists(self.path + '_smiles.pkl'):
             print('cache found')
             return True
         else:
@@ -74,7 +82,7 @@ class PropertyPredDataset(dgl.data.DGLDataset):
             return False
 
     def __getitem__(self, i):
-        return self.graphs[i], self.labels[i]
+        return self.graphs[i], self.labels[i], self.smiles_list[i]
 
     def __len__(self):
         return len(self.graphs)

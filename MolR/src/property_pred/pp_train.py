@@ -1,5 +1,7 @@
 import torch
 import pickle
+import deepchem as dc
+import pandas as pd
 from model import GNN
 from dgl.dataloading import GraphDataLoader
 from sklearn.linear_model import LogisticRegression
@@ -23,22 +25,49 @@ def train(args, data):
     dataloader = GraphDataLoader(data, batch_size=args.batch_size, shuffle=True)
     all_features = []
     all_labels = []
+    all_smiles = []
     with torch.no_grad():
         mole.eval()
-        for graphs, labels in dataloader:
+        for graphs, labels, smiles in dataloader:
             graph_embeddings = mole(graphs)
             all_features.append(graph_embeddings)
             all_labels.append(labels)
+            all_smiles.append(smiles)
         all_features = torch.cat(all_features, dim=0).cpu().numpy()
         all_labels = torch.cat(all_labels, dim=0).cpu().numpy()
+        # all_smiles = torch.cat(all_smiles, dim=0).cpu().numpy()
+        all_smiles = [val for sublist in all_smiles for val in sublist]
+
 
     print('splitting dataset')
-    train_features = all_features[: int(0.8 * len(data))]
-    train_labels = all_labels[: int(0.8 * len(data))]
-    valid_features = all_features[int(0.8 * len(data)): int(0.9 * len(data))]
-    valid_labels = all_labels[int(0.8 * len(data)): int(0.9 * len(data))]
-    test_features = all_features[int(0.9 * len(data)):]
-    test_labels = all_labels[int(0.9 * len(data)):]
+
+    # print(len(all_features), len(all_labels), len(all_smiles))
+    # print(all_features)
+    # print(all_labels)
+    # print(all_smiles)
+
+    df = pd.DataFrame({'y': all_labels, 'smiles': all_smiles})
+    df['w'] = 0
+    df['X'] = 0
+
+    dc_dataset = dc.data.DiskDataset.from_dataframe(df, X='X', y='y', w='w', ids='smiles')
+
+    splitter = dc.splits.ScaffoldSplitter()
+    tr, va, te = splitter.split(dc_dataset)
+
+    train_features = all_features[tr]
+    train_labels = all_labels[tr]
+    valid_features = all_features[va]
+    valid_labels = all_labels[va]
+    test_features = all_features[te]
+    test_labels = all_labels[te]
+
+    # train_features = all_features[: int(0.8 * len(data))]
+    # train_labels = all_labels[: int(0.8 * len(data))]
+    # valid_features = all_features[int(0.8 * len(data)): int(0.9 * len(data))]
+    # valid_labels = all_labels[int(0.8 * len(data)): int(0.9 * len(data))]
+    # test_features = all_features[int(0.9 * len(data)):]
+    # test_labels = all_labels[int(0.9 * len(data)):]
 
     print('training the classification model\n')
     pred_model = LogisticRegression(solver='liblinear')

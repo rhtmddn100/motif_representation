@@ -86,6 +86,8 @@ class PropertyPredDataset(dgl.data.DGLDataset):
 
     def __len__(self):
         return len(self.graphs)
+    
+    def split(self):
 
 
 def load_data(args):

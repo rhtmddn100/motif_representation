@@ -83,3 +83,4 @@ def run_classification(model, mode, features, labels):
     auc = roc_auc_score(labels, model.predict_proba(features)[:, 1])
     print('%s acc: %.4f   auc: %.4f' % (mode, acc, auc))
     return auc
+

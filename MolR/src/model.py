@@ -4,6 +4,7 @@ from dgl.nn import GraphConv, GATConv, SAGEConv, SGConv, TAGConv
 from dgl.nn.pytorch.glob import SumPooling
 from torch.nn import ModuleList
 from torch.nn.functional import one_hot
+from torch.nn import Linear, Dropout, ReLU
 
 
 class GNN(torch.nn.Module):
@@ -58,3 +59,31 @@ class GNN(torch.nn.Module):
         h *= self.factor
         graph_embedding = self.pooling_layer(graph, h)
         return graph_embedding
+
+class DownstreamModel(torch.nn.Module):
+    def __init__(self, gnn_encoder, n_tasks, n_layers, in_dim, hidden_size, dropout, task_type):
+        super(DownstreamModel, self).__init__()
+
+        self.gnn_encoder = gnn_encoder
+        
+        layers = []
+
+        # input to hidden1
+        layers.append(Linear(in_dim, hidden_size))
+        layers.append(Dropout(dropout))
+        layers.append(ReLU())
+
+        # hidden1 to hidden n - 1
+        for _ in range(n_layers - 2):
+            layers.append(Linear(hidden_size, hidden_size))
+            layers.append(Dropout(dropout))
+            layers.append(ReLU())
+        
+        layers.append(Linear(hidden_size, n_tasks))
+
+        self.linear_model = nn.Sequential(*layers)
+
+
+    def forward(graphs):
+        x = self.gnn_encoder(graphs)
+        return self.linear_model(x)

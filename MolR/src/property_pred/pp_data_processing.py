@@ -3,6 +3,8 @@ import dgl
 import torch
 import pickle
 import pysmiles
+import numpy as np
+import deepchem as dc
 from rdkit import Chem
 from data_processing import networkx_to_dgl
 
@@ -13,7 +15,8 @@ class PropertyPredDataset(dgl.data.DGLDataset):
         self.path = '../data/' + args.dataset + '/' + args.dataset
         self.graphs = []
         self.labels = []
-        self.smiles_list = []
+        self.valids = []
+        self.smiles = []
         super().__init__(name='property_pred_' + args.dataset)
 
     def to_gpu(self):
@@ -25,14 +28,14 @@ class PropertyPredDataset(dgl.data.DGLDataset):
         print('saving ' + self.args.dataset + ' dataset to ' + self.path + '.bin')
         dgl.save_graphs(self.path + '.bin', self.graphs, {'label': self.labels})
         with open(self.path + '_smiles.pkl', 'wb') as f:
-            pickle.dump(self.smiles_list, f)
+            pickle.dump(self.smiles, f)
 
     def load(self):
         print('loading ' + self.args.dataset + ' dataset from ' + self.path + '.bin')
         self.graphs, self.labels = dgl.load_graphs(self.path + '.bin')
         self.labels = self.labels['label']
         with open(self.path + '_smiles.pkl', 'rb') as f:
-            self.smiles_list = pickle.load(f)
+            self.smiles = pickle.load(f)
         self.to_gpu()
 
     def process(self):
@@ -46,31 +49,69 @@ class PropertyPredDataset(dgl.data.DGLDataset):
                     continue
                 items = line.strip().split(',')
                 if self.args.dataset == 'BBBP':
-                    smiles, label = items[-1], items[-2]
+                    smiles, = items[-1]
+                    label = []
+                    for item in items[-2]:
+                        if item == '':
+                            label.append(np.nan)
+                            continue
+                        label.append(float(item))
+                    label = np.asarray(label, dtype=float)
                     # the next line is to remove unnecessary hydrogen atoms that will cause discontinuous node labels
                     smiles = smiles.replace('([H])', '').replace('[H]', '')
                 elif self.args.dataset == 'HIV':
-                    smiles, label = items[0], items[-1]
+                    smiles = items[0]
+                    label = []
+                    for item in items[-1]:
+                        if item == '':
+                            label.append(np.nan)
+                            continue
+                        label.append(float(item))
+                    label = np.asarray(label, dtype=float)
                     smiles = smiles.replace('se', 'Se').replace('te', 'Te')
                 elif self.args.dataset == 'BACE':
-                    smiles, label = items[0], items[2]
+                    smiles = items[0]
+                    label = []
+                    for item in items[2]:
+                        if item == '':
+                            label.append(np.nan)
+                            continue
+                        label.append(float(item))
+                    label = np.asarray(label, dtype=float)
                 elif self.args.dataset == 'Tox21':
-                    smiles, label = items[-1], items[11]
+                    smiles = items[-1]
                     smiles = smiles.replace('se', 'Se')
-                    if label == '':
-                        continue
+                    label = []
+                    for item in items[0:11]:
+                        if item == '':
+                            label.append(np.nan)
+                            continue
+                        label.append(float(item))
+                    label = np.asarray(label, dtype=float)
                 elif self.args.dataset == 'ClinTox':
-                    smiles, label = items[0], items[2]
+                    smiles = items[0]
+                    label = []
+                    for item in items[1:2]:
+                        if item == '':
+                            label.append(np.nan)
+                            continue
+                        label.append(float(item))
+                    label = np.asarray(label, dtype=float)
                     smiles = smiles.replace('[H]', '')
                 else:
                     raise ValueError('unknown dataset')
                 if Chem.MolFromSmiles(smiles) is not None:
-                    self.smiles_list.append(smiles)
+                    self.smiles.append(smiles)
                     raw_graph = pysmiles.read_smiles(smiles, zero_order_bonds=False)
                     dgl_graph = networkx_to_dgl(raw_graph, feature_encoder)
                     self.graphs.append(dgl_graph)
-                    self.labels.append(float(label))
+                    valid = ~np.isnan(label)
+                    label = np.nan_to_num(label, nan=0.5)
+                    self.tasks = len(label)
+                    self.labels.append(label)
+                    self.valids.append(valid)
         self.labels = torch.Tensor(self.labels)
+        self.valids = torch.Tensor(self.valids)
         self.to_gpu()
 
     def has_cache(self):
@@ -82,13 +123,10 @@ class PropertyPredDataset(dgl.data.DGLDataset):
             return False
 
     def __getitem__(self, i):
-        return self.graphs[i], self.labels[i], self.smiles_list[i]
+        return self.graphs[i], self.labels[i], self.valids[i], self.smiles[i]
 
     def __len__(self):
         return len(self.graphs)
-    
-    def split(self):
-
 
 def load_data(args):
     data = PropertyPredDataset(args)

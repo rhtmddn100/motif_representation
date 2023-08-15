@@ -4,7 +4,7 @@ from dgl.nn import GraphConv, GATConv, SAGEConv, SGConv, TAGConv
 from dgl.nn.pytorch.glob import SumPooling
 from torch.nn import ModuleList
 from torch.nn.functional import one_hot
-from torch.nn import Linear, Dropout, ReLU
+from torch.nn import Linear, Dropout, ReLU, Sigmoid
 
 
 class GNN(torch.nn.Module):
@@ -81,8 +81,10 @@ class DownstreamModel(torch.nn.Module):
         
         layers.append(Linear(hidden_size, n_tasks))
 
-        self.linear_model = nn.Sequential(*layers)
+        if task_type == 'class':
+            layers.append(Sigmoid())
 
+        self.linear_model = nn.Sequential(*layers)
 
     def forward(graphs):
         x = self.gnn_encoder(graphs)

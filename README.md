@@ -2,7 +2,7 @@
 
 ## 1. Extracting Motifs
 
-1) Save the list of smiles that you want to fragment into motifs as a .smi file and store under `./data` directory.
+1) Save the list of smiles that you want to fragment into motifs as a .smiles file and store under `./data` directory.
 
 ```
 MotifVocab
@@ -23,3 +23,5 @@ python src/merging_operation_learning.py \
     --dataset QM9 \
     --num_workers 60
 ```
+
+## 2. 

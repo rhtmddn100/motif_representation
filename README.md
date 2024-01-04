@@ -24,4 +24,4 @@ python src/merging_operation_learning.py \
     --num_workers 60
 ```
 
-## 2. 
+## 2. Running Motif Representation Experiments

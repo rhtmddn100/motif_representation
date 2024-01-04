@@ -10,6 +10,9 @@ MotifVocab
 │   └── QM9
 │       ├── train.smiles
 │       └── valid.smiles
+|       USPTO-479k
+│       ├── train.smiles
+│       └── valid.smiles
 ├── output/
 ├── preprocess/
 ├── src/
@@ -20,7 +23,7 @@ MotifVocab
 
 ```
 python src/merging_operation_learning.py \
-    --dataset QM9 \
+    --dataset USPTO-479k \
     --num_workers 60
 ```
 
